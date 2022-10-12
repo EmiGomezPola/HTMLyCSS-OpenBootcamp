@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    Aqui vamos a empezar a escribir nuestra codigo
+    <form action="resultado.html" method="GET">
+        <div>
+            <label for="nombreUsuario">Nombre de Usuario</label>
+            <input name="nombreUsuario" type="text" id="nombreUsuario" required />
+        </div>
+      
+        <br>
+        <div>
+            <label for="password">Cual es tu edad?</label>
+            <input name="edad" type="number" id="number" min="0" />
+        </div>
+        <br>
+        <div>
+            <label for="password">Cfecha de nacimiento?</label>
+            <input name="edad" type="date" id="password" min="0" />
+        </div>
+        <br>
+        <div>
+            <label for="comentarios">Frase Favorita</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+        </div>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
